@@ -4,7 +4,7 @@ This repository contains a comprehensive analysis of a marketing A/B test. The g
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 - [Project Goal](#-project-goal)
 - [Dataset](#-dataset)
 - [Methodology](#-methodology)
@@ -15,13 +15,13 @@ This repository contains a comprehensive analysis of a marketing A/B test. The g
 
 ---
 
-## 🎯 Project Goal
+##  Project Goal
 
 The primary objective of this analysis is to evaluate the effectiveness of a new ad campaign. By comparing the conversion rates of a treatment group (shown the new ad) against a control group (shown a PSA), we can determine if the campaign provides a positive return on investment and should be launched to a wider audience.
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 The dataset used for this analysis is `marketing_AB.csv`. It contains 588,101 records of user interactions during the A/B test.
 
@@ -35,18 +35,18 @@ The dataset used for this analysis is `marketing_AB.csv`. It contains 588,101 re
 
 ---
 
-## ⚙️ Methodology
+##  Methodology
 
 The analysis was conducted in a Jupyter Notebook (`Marketing_AB_Test.ipynb`) and follows a structured workflow:
 
 1.  **Data Cleaning & Preparation:**
     - Loaded the dataset using Pandas.
-    - Standardized column names and handled data type conversions.
+    - Standardised column names and handled data type conversions.
     - Ensured data integrity by checking for duplicates and missing values.
 
 2.  **Exploratory Data Analysis (EDA):**
     - Calculated and compared baseline conversion rates for both groups.
-    - Visualized user distribution, ad exposure patterns, and peak activity times using Matplotlib.
+    - Visualised user distribution, ad exposure patterns, and peak activity times using Matplotlib.
     - Identified a significant sample size imbalance between the control and treatment groups, a key consideration for the analysis.
 
 3.  **Statistical Inference:**
@@ -56,7 +56,7 @@ The analysis was conducted in a Jupyter Notebook (`Marketing_AB_Test.ipynb`) and
 
 ---
 
-## 📈 Key Findings
+##  Key Findings
 
 The analysis confirmed that the new ad campaign was a success. The treatment group showed a statistically significant improvement in conversion rates compared to the control group.
 
@@ -73,14 +73,14 @@ The p-value is significantly lower than the 0.05 alpha level, leading us to **re
 
 
 
-## 💡 Business Recommendation
+##  Business Recommendation
 
 ### Recommendation
 Based on the strong, statistically significant results, the recommendation is to **launch the new ad campaign to the wider user base.** The campaign has proven its effectiveness in driving a positive lift in user conversions.
 
 ### Proposed Next Steps
 1.  **Return on Ad Spend (ROAS) Analysis:** To fully assess profitability, a follow-up analysis should incorporate the campaign's cost to calculate the ROAS.
-2.  **User Segmentation Analysis:** Investigate if the ad's effectiveness differs across user segments (e.g., by peak activity hour or total ads seen) to optimize future ad spend and targeting.
+2.  **User Segmentation Analysis:** Investigate if the ad's effectiveness differs across user segments (e.g., by peak activity hour or total ads seen) to optimise future ad spend and targeting.
 
 ---
 
@@ -90,7 +90,7 @@ Based on the strong, statistically significant results, the recommendation is to
 - **Libraries:**
   - `pandas` for data manipulation.
   - `numpy` for numerical operations.
-  - `matplotlib` for data visualization.
+  - `matplotlib` for data visualisation.
   - `scipy` and `statsmodels` for statistical analysis.
 
 
