@@ -94,4 +94,4 @@ Based on the strong, statistically significant results, the recommendation is to
   - `scipy` and `statsmodels` for statistical analysis.
 
 
-**Contact:**  Mohani Lal Bhurtel - https://www.linkedin.com/in/mohanibhurtel/
+**Contact:**  Mohani Lal Bhurtel - https://www.linkedin.com/in/mohanibhurtel
